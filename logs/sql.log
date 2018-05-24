@@ -1,0 +1,134 @@
+[2018-04-17 10:15:24.690][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test4(name,sex) values(?,?) 
+[2018-04-17 10:15:24.715][DEBUG][insert][159][logId:] - ==> Parameters: liuyang(String), 1(Integer)
+[2018-04-17 10:15:24.817][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test(name,sex) values(?,?) 
+[2018-04-17 10:15:24.818][DEBUG][insert][159][logId:] - ==> Parameters: liuyang(String), 1(Integer)
+[2018-04-17 10:15:24.829][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 10:19:48.457][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test(name,sex) values(?,?) 
+[2018-04-17 10:19:48.477][DEBUG][insert][159][logId:] - ==> Parameters: liuyang(String), 1(Integer)
+[2018-04-17 10:19:48.481][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 10:19:48.484][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test(name,sex) values(?,?) 
+[2018-04-17 10:19:48.485][DEBUG][insert][159][logId:] - ==> Parameters: liuyang(String), 1(Integer)
+[2018-04-17 10:19:48.487][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 10:20:56.031][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test(name,sex) values(?,?) 
+[2018-04-17 10:20:56.032][DEBUG][insert][159][logId:] - ==> Parameters: liuyang(String), 1(Integer)
+[2018-04-17 10:20:56.037][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 10:20:56.041][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test(name,sex) values(?,?) 
+[2018-04-17 10:20:56.042][DEBUG][insert][159][logId:] - ==> Parameters: liuyang(String), 1(Integer)
+[2018-04-17 10:20:56.046][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 10:24:03.335][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test(name,sex) values(?,?) 
+[2018-04-17 10:24:03.350][DEBUG][insert][159][logId:] - ==> Parameters: liuyang(String), 3(Integer)
+[2018-04-17 10:24:03.353][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 10:24:03.355][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test(name,sex) values(?,?) 
+[2018-04-17 10:24:03.356][DEBUG][insert][159][logId:] - ==> Parameters: liuyang(String), 3(Integer)
+[2018-04-17 10:24:03.357][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 10:28:53.599][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test(name,sex) values(?,?) 
+[2018-04-17 10:28:53.614][DEBUG][insert][159][logId:] - ==> Parameters: lyly(String), 21(Integer)
+[2018-04-17 10:28:53.618][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 10:28:53.620][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test2.test(name,sex) values(?,?) 
+[2018-04-17 10:28:53.620][DEBUG][insert][159][logId:] - ==> Parameters: lyly(String), 21(Integer)
+[2018-04-17 10:28:53.622][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 12:17:27.228][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test(name,sex) values(?,?) 
+[2018-04-17 12:17:27.248][DEBUG][insert][159][logId:] - ==> Parameters: lylyty(String), 20(Integer)
+[2018-04-17 12:17:27.252][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 12:17:27.254][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test2.test(name,sex) values(?,?) 
+[2018-04-17 12:17:27.254][DEBUG][insert][159][logId:] - ==> Parameters: lylyty(String), 20(Integer)
+[2018-04-17 12:17:27.256][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 15:17:05.020][DEBUG][getByName][159][logId:] - ==>  Preparing: select * from test where name like ? 
+[2018-04-17 15:17:05.047][DEBUG][getByName][159][logId:] - ==> Parameters: test1(String)
+[2018-04-17 15:17:05.063][DEBUG][getByName][159][logId:] - <==      Total: 0
+[2018-04-17 15:17:05.068][DEBUG][getByName][159][logId:] - ==>  Preparing: select * from test2.test where name like ? 
+[2018-04-17 15:17:05.069][DEBUG][getByName][159][logId:] - ==> Parameters: liuyang(String)
+[2018-04-17 15:17:05.070][DEBUG][getByName][159][logId:] - <==      Total: 0
+[2018-04-17 15:17:05.072][DEBUG][getByName][159][logId:] - ==>  Preparing: select * from test3.test where name like ? 
+[2018-04-17 15:17:05.072][DEBUG][getByName][159][logId:] - ==> Parameters: liuyang1(String)
+[2018-04-17 15:17:05.074][DEBUG][getByName][159][logId:] - <==      Total: 0
+[2018-04-17 15:20:48.156][DEBUG][getByName][159][logId:] - ==>  Preparing: select * from test where name like ? 
+[2018-04-17 15:20:48.190][DEBUG][getByName][159][logId:] - ==> Parameters: liuyang(String)
+[2018-04-17 15:20:48.215][DEBUG][getByName][159][logId:] - <==      Total: 7
+[2018-04-17 15:21:05.989][DEBUG][getByName][159][logId:] - ==>  Preparing: select * from test2.test where name like ? 
+[2018-04-17 15:21:05.992][DEBUG][getByName][159][logId:] - ==> Parameters: lyly(String)
+[2018-04-17 15:21:05.994][DEBUG][getByName][159][logId:] - <==      Total: 2
+[2018-04-17 15:21:26.575][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test(name,sex) values(?,?) 
+[2018-04-17 15:21:26.577][DEBUG][insert][159][logId:] - ==> Parameters: test(String), 1(Integer)
+[2018-04-17 15:21:26.582][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 15:21:34.188][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test2.test(name,sex) values(?,?) 
+[2018-04-17 15:21:34.188][DEBUG][insert][159][logId:] - ==> Parameters: test(String), 1(Integer)
+[2018-04-17 15:21:34.190][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 15:25:38.661][DEBUG][getByName][159][logId:] - ==>  Preparing: select * from test where name like ? 
+[2018-04-17 15:25:38.680][DEBUG][getByName][159][logId:] - ==> Parameters: liuyang(String)
+[2018-04-17 15:25:38.700][DEBUG][getByName][159][logId:] - <==      Total: 7
+[2018-04-17 15:25:38.704][DEBUG][getByName][159][logId:] - ==>  Preparing: select * from test2.test where name like ? 
+[2018-04-17 15:25:38.704][DEBUG][getByName][159][logId:] - ==> Parameters: lyly(String)
+[2018-04-17 15:25:38.706][DEBUG][getByName][159][logId:] - <==      Total: 2
+[2018-04-17 15:25:38.709][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test(name,sex) values(?,?) 
+[2018-04-17 15:25:38.709][DEBUG][insert][159][logId:] - ==> Parameters: test(String), 1(Integer)
+[2018-04-17 15:25:38.711][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 15:25:38.715][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test2.test(name,sex) values(?,?) 
+[2018-04-17 15:25:38.715][DEBUG][insert][159][logId:] - ==> Parameters: test(String), 1(Integer)
+[2018-04-17 15:25:38.721][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 15:28:54.260][DEBUG][getByName][159][logId:] - ==>  Preparing: select * from test where name like ? 
+[2018-04-17 15:28:54.284][DEBUG][getByName][159][logId:] - ==> Parameters: liuyang(String)
+[2018-04-17 15:28:54.329][DEBUG][getByName][159][logId:] - <==      Total: 7
+[2018-04-17 15:28:56.547][DEBUG][getByName][159][logId:] - ==>  Preparing: select * from test2.test where name like ? 
+[2018-04-17 15:28:56.547][DEBUG][getByName][159][logId:] - ==> Parameters: lyly(String)
+[2018-04-17 15:28:56.551][DEBUG][getByName][159][logId:] - <==      Total: 2
+[2018-04-17 15:28:56.558][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test(name,sex) values(?,?) 
+[2018-04-17 15:28:56.559][DEBUG][insert][159][logId:] - ==> Parameters: test(String), 1(Integer)
+[2018-04-17 15:28:56.561][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 15:28:56.563][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test2.test(name,sex) values(?,?) 
+[2018-04-17 15:28:56.563][DEBUG][insert][159][logId:] - ==> Parameters: test(String), 1(Integer)
+[2018-04-17 15:28:56.567][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 15:31:33.393][DEBUG][getByName][159][logId:] - ==>  Preparing: select * from test where name like ? 
+[2018-04-17 15:31:33.414][DEBUG][getByName][159][logId:] - ==> Parameters: liuyang(String)
+[2018-04-17 15:31:33.437][DEBUG][getByName][159][logId:] - <==      Total: 7
+[2018-04-17 15:31:49.223][DEBUG][getByName][159][logId:] - ==>  Preparing: select * from test2.test where name like ? 
+[2018-04-17 15:31:49.224][DEBUG][getByName][159][logId:] - ==> Parameters: lyly(String)
+[2018-04-17 15:31:49.226][DEBUG][getByName][159][logId:] - <==      Total: 2
+[2018-04-17 15:31:49.231][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test(name,sex) values(?,?) 
+[2018-04-17 15:31:49.233][DEBUG][insert][159][logId:] - ==> Parameters: test(String), 1(Integer)
+[2018-04-17 15:31:49.236][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 15:31:49.237][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test2.test(name,sex) values(?,?) 
+[2018-04-17 15:31:49.238][DEBUG][insert][159][logId:] - ==> Parameters: test(String), 1(Integer)
+[2018-04-17 15:31:49.240][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 15:38:01.650][DEBUG][getByName][159][logId:] - ==>  Preparing: select * from test where name like ? 
+[2018-04-17 15:38:01.973][DEBUG][getByName][159][logId:] - ==> Parameters: liuyang(String)
+[2018-04-17 15:38:02.212][DEBUG][getByName][159][logId:] - <==      Total: 7
+[2018-04-17 15:38:19.241][DEBUG][getByName][159][logId:] - ==>  Preparing: select * from test2.test where name like ? 
+[2018-04-17 15:38:19.243][DEBUG][getByName][159][logId:] - ==> Parameters: lyly(String)
+[2018-04-17 15:38:19.248][DEBUG][getByName][159][logId:] - <==      Total: 2
+[2018-04-17 15:38:24.892][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test(name,sex) values(?,?) 
+[2018-04-17 15:38:24.893][DEBUG][insert][159][logId:] - ==> Parameters: test(String), 1(Integer)
+[2018-04-17 15:38:24.895][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 15:38:31.252][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test2.test(name,sex) values(?,?) 
+[2018-04-17 15:38:31.253][DEBUG][insert][159][logId:] - ==> Parameters: test(String), 1(Integer)
+[2018-04-17 15:38:31.257][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 15:42:44.914][DEBUG][getByName][159][logId:] - ==>  Preparing: select * from test where name like ? 
+[2018-04-17 15:42:44.948][DEBUG][getByName][159][logId:] - ==> Parameters: liuyang(String)
+[2018-04-17 15:42:44.967][DEBUG][getByName][159][logId:] - <==      Total: 7
+[2018-04-17 15:42:44.971][DEBUG][getByName][159][logId:] - ==>  Preparing: select * from test2.test where name like ? 
+[2018-04-17 15:42:44.971][DEBUG][getByName][159][logId:] - ==> Parameters: lyly(String)
+[2018-04-17 15:42:44.973][DEBUG][getByName][159][logId:] - <==      Total: 2
+[2018-04-17 15:42:44.975][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test(name,sex) values(?,?) 
+[2018-04-17 15:42:44.975][DEBUG][insert][159][logId:] - ==> Parameters: test(String), 1(Integer)
+[2018-04-17 15:42:44.979][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 15:42:44.981][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test2.test(name,sex) values(?,?) 
+[2018-04-17 15:42:44.981][DEBUG][insert][159][logId:] - ==> Parameters: test(String), 1(Integer)
+[2018-04-17 15:42:44.983][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 16:01:37.658][DEBUG][getByName][159][logId:] - ==>  Preparing: select * from test where name like ? 
+[2018-04-17 16:01:37.682][DEBUG][getByName][159][logId:] - ==> Parameters: liuyang(String)
+[2018-04-17 16:01:37.703][DEBUG][getByName][159][logId:] - <==      Total: 7
+[2018-04-17 16:01:37.706][DEBUG][getByName][159][logId:] - ==>  Preparing: select * from test where name like ? 
+[2018-04-17 16:01:37.706][DEBUG][getByName][159][logId:] - ==> Parameters: liu(String)
+[2018-04-17 16:01:37.707][DEBUG][getByName][159][logId:] - <==      Total: 0
+[2018-04-17 16:01:37.709][DEBUG][getByName][159][logId:] - ==>  Preparing: select * from test2.test where name like ? 
+[2018-04-17 16:01:37.710][DEBUG][getByName][159][logId:] - ==> Parameters: lyly(String)
+[2018-04-17 16:01:37.711][DEBUG][getByName][159][logId:] - <==      Total: 2
+[2018-04-17 16:01:37.712][DEBUG][getByName][159][logId:] - ==>  Preparing: select * from test2.test where name like ? 
+[2018-04-17 16:01:37.713][DEBUG][getByName][159][logId:] - ==> Parameters: ly(String)
+[2018-04-17 16:01:37.714][DEBUG][getByName][159][logId:] - <==      Total: 0
+[2018-04-17 16:01:37.717][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test(name,sex) values(?,?) 
+[2018-04-17 16:01:37.720][DEBUG][insert][159][logId:] - ==> Parameters: test(String), 1(Integer)
+[2018-04-17 16:01:37.722][DEBUG][insert][159][logId:] - <==    Updates: 1
+[2018-04-17 16:01:37.723][DEBUG][insert][159][logId:] - ==>  Preparing: insert into test2.test(name,sex) values(?,?) 
+[2018-04-17 16:01:37.723][DEBUG][insert][159][logId:] - ==> Parameters: test(String), 1(Integer)
+[2018-04-17 16:01:37.725][DEBUG][insert][159][logId:] - <==    Updates: 1

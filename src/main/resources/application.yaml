@@ -1,0 +1,119 @@
+server:
+  #address: 127.0.0.1
+  port: 9979
+  #context-path: /test
+spring:
+  data:
+    redis:
+      hostName: 127.0.0.1
+      port: 6379
+      timeout: 1000
+      database: 0
+      pool:
+        max-idle: 8
+        max-wait: -1
+        min-idle: 0
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/test
+  aop:
+    auto: true
+
+  rabbitmq:
+    publisher-confirms: true
+    username: guest
+    password: 123456
+    port: 5672
+    addresses: 127.0.0.1
+    dynamic: true
+    listener:
+      simple:
+        prefetch: 2
+    template:
+      retry:
+        initial-interval: 1000
+        max-attempts: 3
+    virtual-host: /
+    test1:
+      exchange: testTopicRabbit
+      binding-key: testTopicRabbit.test.#
+      queue: testQueue1
+
+    test2:
+     exchange: testTopicRabbit
+     binding-key: testTopicRabbit.test
+     queue: testQueue2
+
+  kafka:
+    consumer:
+      bootstrap-servers: 127.0.0.1:9092,127.0.0.1:9093,127.0.0.1:9094,127.0.0.1:9095
+    producer:
+      bootstrap-servers: 127.0.0.1:9092,127.0.0.1:9093,127.0.0.1:9094,127.0.0.1:9095
+    client-id: 0,1,2,3
+    template:
+      default-topic: test
+
+
+
+jdbc:
+  pool:
+    maxActive: 20
+    maxIdle: 5
+    initialSize: 1
+    maxWait: 60000
+    minIdle: 1
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+  test1:
+    url: jdbc:mysql://127.0.0.1:3306/test1?useUnicode=true&characterEncoding=UTF-8&useTimezone=true&serverTimezone=GMT
+    username: root
+    password: 123456
+
+
+  test2:
+      url: jdbc:mysql://127.0.0.1:3306/test2?useUnicode=true&characterEncoding=UTF-8&useTimezone=true&serverTimezone=GMT
+      username: root
+      password: 123456
+
+  test3:
+      url: jdbc:mysql://127.0.0.1:3306/test3?useUnicode=true&characterEncoding=UTF-8&useTimezone=true&serverTimezone=GMT
+      username: root
+      password: 123456
+
+  slave1_test1:
+      url: jdbc:mysql://127.0.0.1:3307/test1?useUnicode=true&characterEncoding=UTF-8&useTimezone=true&serverTimezone=GMT
+      username: root
+      password: 123456
+
+
+  slave1_test2:
+        url: jdbc:mysql://127.0.0.1:3307/test2?useUnicode=true&characterEncoding=UTF-8&useTimezone=true&serverTimezone=GMT
+        username: root
+        password: 123456
+
+  slave1_test3:
+        url: jdbc:mysql://127.0.0.1:3307/test3?useUnicode=true&characterEncoding=UTF-8&useTimezone=true&serverTimezone=GMT
+        username: root
+        password: 123456
+
+  slave2_test1:
+        url: jdbc:mysql://127.0.0.1:3308/test1?useUnicode=true&characterEncoding=UTF-8&useTimezone=true&serverTimezone=GMT
+        username: root
+        password: 123456
+
+
+  slave2_test2:
+          url: jdbc:mysql://127.0.0.1:3308/test2?useUnicode=true&characterEncoding=UTF-8&useTimezone=true&serverTimezone=GMT
+          username: root
+          password: 123456
+
+  slave2_test3:
+          url: jdbc:mysql://127.0.0.1:3308/test3?useUnicode=true&characterEncoding=UTF-8&useTimezone=true&serverTimezone=GMT
+          username: root
+          password: 123456
+
+
+
+
+
+
+

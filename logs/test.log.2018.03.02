@@ -1,0 +1,28 @@
+[2018-03-02 21:21:10.291][INFO][ApiAop][56][logId:] - function start [FirstApi.test]
+[2018-03-02 21:21:10.410][INFO][ApiAop][57][logId:] - function param[[{"birth":1519996870284,"id":12345,"name":"liuyang","sex":"t"}]]
+[2018-03-02 21:21:10.410][INFO][ApiAop][29][logId:] - this is before!!!
+[2018-03-02 21:21:10.411][INFO][ApiAop][35][logId:] - this is before1!!!
+[2018-03-02 21:21:10.678][INFO][ApiAop][71][logId:] - total cost 0.268
+[2018-03-02 21:21:10.679][INFO][ApiAop][42][logId:] - this is after!!!
+[2018-03-02 21:22:55.991][INFO][ApiAop][56][logId:] - function start [FirstApi.test]
+[2018-03-02 21:22:56.087][INFO][ApiAop][57][logId:] - function param[[{"birth":1519996975980,"id":12345,"name":"liuyang","sex":"t"}]]
+[2018-03-02 21:22:56.088][INFO][ApiAop][29][logId:] - this is before!!!
+[2018-03-02 21:22:56.088][INFO][ApiAop][35][logId:] - this is before1!!!
+[2018-03-02 21:22:56.381][INFO][ApiAop][71][logId:] - total cost 0.294
+[2018-03-02 21:22:56.382][INFO][ApiAop][42][logId:] - this is after!!!
+[2018-03-02 21:25:35.643][INFO][ApiAop][56][logId:] - function start [FirstApi.test]
+[2018-03-02 21:25:35.740][INFO][ApiAop][57][logId:] - function param[[{"birth":1519997135636,"id":12345,"name":"liuyang","sex":"t"}]]
+[2018-03-02 21:25:35.741][INFO][ApiAop][29][logId:] - this is before!!!
+[2018-03-02 21:25:35.741][INFO][ApiAop][35][logId:] - this is before1!!!
+[2018-03-02 21:25:36.055][INFO][ApiAop][71][logId:] - total cost 0.314
+[2018-03-02 21:25:36.055][INFO][ApiAop][73][logId:] - function result {"birth":1519997135636,"id":12345,"logId":1519997136055,"name":"liuyang","sex":"t"}
+[2018-03-02 21:25:36.056][INFO][ApiAop][42][logId:] - this is after!!!
+[2018-03-02 21:37:04.586][INFO][ApiAop][56][logId:] - function start [FirstApi.test]
+[2018-03-02 21:37:04.691][INFO][ApiAop][57][logId:] - function param[[{"birth":1519997824578,"id":12345,"name":"liuyang","sex":"t"}]]
+[2018-03-02 21:37:04.692][INFO][ApiAop][29][logId:] - this is before!!!
+[2018-03-02 21:37:04.692][INFO][ApiAop][35][logId:] - this is before1!!!
+[2018-03-02 21:37:05.052][INFO][ApiAop][71][logId:] - total cost 0.36
+[2018-03-02 21:37:05.052][INFO][ApiAop][73][logId:] - function result {"birth":1519997824578,"id":12345,"logId":1519997825052,"name":"liuyang","sex":"t"}
+[2018-03-02 21:37:05.053][INFO][ApiAop][42][logId:] - this is after!!!
+[2018-03-02 21:37:44.441][INFO][ApiAop][47][logId:] - this is afterReturning !!!
+[2018-03-02 21:37:44.443][INFO][ApiAop][48][logId:] - null
