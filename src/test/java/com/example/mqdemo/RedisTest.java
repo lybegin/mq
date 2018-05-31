@@ -1,5 +1,6 @@
 package com.example.mqdemo;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,6 +16,7 @@ public class RedisTest {
     private RedisTemplate<String,String> redisTemplate ;
 
     @Test
+    @Ignore
     public void test(){
         redisTemplate.opsForValue().set("hello","world123");
         System.out.println(redisTemplate.opsForValue().get("hello"));

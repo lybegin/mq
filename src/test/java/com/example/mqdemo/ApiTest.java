@@ -2,6 +2,7 @@ package com.example.mqdemo;
 
 import com.example.mqdemo.api.FirstApi;
 import com.example.mqdemo.dao.entity.TestTable;
+import kafka.tools.UpdateOffsetsInZK;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,5 +26,18 @@ public class ApiTest {
         table.setName("liuyang");
         table.setSex(1);
         firstApi.test(table);
+    }
+
+    @Test
+    public void test1(){
+        for(int i=0; i<= 1;i++) {
+            firstApi.testSendMessage("hello"+i*100);
+        }
+    }
+
+    @Test
+    public void test2(){
+       // firstApi.testConsumeMessage();
+        UpdateOffsetsInZK.Earliest();
     }
 }

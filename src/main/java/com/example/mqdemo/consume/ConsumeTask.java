@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class ConsumeTask {
 
-    @RabbitListener(queues = "testQueue1")
+    /*@RabbitListener(queues = "testQueue1")
     @RabbitHandler
     public void process(String str){
         System.out.println("receiver1:"+str);
@@ -17,5 +17,5 @@ public class ConsumeTask {
     @RabbitHandler
     public void process1(String str){
         System.out.println("receiver2:"+str);
-    }
+    }*/
 }

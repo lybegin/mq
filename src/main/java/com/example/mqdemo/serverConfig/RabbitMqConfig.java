@@ -14,10 +14,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 
-@Configuration
+//@Configuration
 public class RabbitMqConfig {
 
-    @Value("${spring.rabbitmq.publisher-confirms}")
+   /* @Value("${spring.rabbitmq.publisher-confirms}")
     private String publisherConfirms;
 
     @Value("${spring.rabbitmq.username}")
@@ -48,9 +48,9 @@ public class RabbitMqConfig {
     private String virtualHost;
 
 
-    /**
+    *//**
      * rabbitmq
-     */
+     *//*
     @Value("${spring.rabbitmq.test1.exchange}")
     private String exchange;
 
@@ -60,9 +60,9 @@ public class RabbitMqConfig {
     @Value("${spring.rabbitmq.test1.queue}")
     private String queue1;
 
-   /* @Value("${spring.rabbitmq.test2.exchange}")
+   *//* @Value("${spring.rabbitmq.test2.exchange}")
     private String exchange2;
-    */
+    *//*
     @Value("${spring.rabbitmq.test2.binding-key}")
     private String bindingKey2;
 
@@ -84,10 +84,10 @@ public class RabbitMqConfig {
     }
 
 
-    /*public SimpleMessageListenerContainer simpleMessageListenerContainer(){
+    *//*public SimpleMessageListenerContainer simpleMessageListenerContainer(){
         SimpleMessageListenerContainer simpleMessageListenerContainer = new SimpleMessageListenerContainer();
         simpleMessageListenerContainer.
-    }*/
+    }*//*
 
     @Bean(name = "testQueue1" )
     public Queue queue1(){
@@ -120,6 +120,6 @@ public class RabbitMqConfig {
         JsonMessageConverter jsonMessageConverter = new JsonMessageConverter();
         jsonMessageConverter.setCreateMessageIds(true);
         return jsonMessageConverter;
-    }
+    }*/
 
 }

@@ -1,6 +1,6 @@
 server:
-  #address: 127.0.0.1
-  port: 9979
+  address: 127.0.0.1
+  port: 8080
   #context-path: /test
 spring:
   data:
@@ -43,16 +43,13 @@ spring:
      binding-key: testTopicRabbit.test
      queue: testQueue2
 
-  kafka:
-    consumer:
-      bootstrap-servers: 127.0.0.1:9092,127.0.0.1:9093,127.0.0.1:9094,127.0.0.1:9095
-    producer:
-      bootstrap-servers: 127.0.0.1:9092,127.0.0.1:9093,127.0.0.1:9094,127.0.0.1:9095
-    client-id: 0,1,2,3
-    template:
-      default-topic: test
-
-
+kafka:
+  metadata.broker.list2: 127.0.0.1:9092,127.0.0.1:9093,127.0.0.1:9094,127.0.0.1:9095
+  topic: testConsumeTopic
+  zookeeper.connect: 127.0.0.1:2181
+  groupid: offline-test
+  consumer.threads: 4
+  processing.guarantee: exactly_once
 
 jdbc:
   pool:

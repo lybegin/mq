@@ -1,5 +1,6 @@
 package com.example.mqdemo;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.amqp.core.AmqpTemplate;
@@ -17,6 +18,7 @@ public class RabbitmqTest {
     private AmqpTemplate rabbitTemplate;
 
     @Test
+    @Ignore
     public void testSend(){
 
         String context = "hello " + new Date();
